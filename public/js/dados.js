@@ -56,7 +56,7 @@ const perguntas = [
     {
         pergunta: "Qual o componente de hardware não volatil, tem a função de guardar uma quantidade grande de informações, que retem os dados mesmo sem energia e permite a ler e gravar dados eletricamente pelo usuário?",
         opcoes: [
-            { texto: "EEPROM", correta: true },
+            { texto: "Flash", correta: true },
             { texto: "EPROM", correta: false },
             { texto: "PROM", correta: false },
             { texto: "RAM", correta: false }
@@ -83,8 +83,8 @@ const perguntas = [
     {
         pergunta: "Qual componente de um microcontrolador tem uma função que tem como analogia um interruptor de atenção do componente externo?",
         opcoes: [
-            { texto: "Chip Select", correta: false },
-            { texto: "Interrupção", correta: true },
+            { texto: "Chip Select", correta: true },
+            { texto: "Interrupção", correta: false },
             { texto: "Interruptor Digital", correta: false },
             { texto: "DMA", correta: false }
         ]
